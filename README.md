@@ -6,8 +6,9 @@
 ## Implementations
 
 1. `Neural Network from Scratch` - for better understanding of how neural network works.
-2. `Tensorflow Implementation` - the same problem solved using tensorflow.
-
+2. `Tensorflow` - the same problem solved using tensorflow.
+3. `Tensorflowjs` - Classifying digits in the browser.
+4. `Tensorflowjs - Webcam` - Classifying the sign from the webcam in the browser.
 
 ## 1. Neural Network from scratch
 
@@ -37,6 +38,35 @@ This code is not as efficient and takes long time to converge and the same probl
 <center>
 <img src="Tensorflow/Images/accuracy.png" width=300px>
 </center>
+
+## Tensorflowjs
+- Implemented using Tensorflowjs library.
+- It trains the model in the browser when launched in the browser and then classifies the digit that we draw in the browser.
+
+### Model Architecture
+<center>
+<img src="Tensorflowjs/images/modelarchitecture.png" width=400px><br>
+</center>
+
+### Perdictions
+
+<center>
+<img src="Tensorflowjs/images/predict1.png" width=300px>
+<img src="Tensorflowjs/images/predict2.png" width=300px>
+<img src="Tensorflowjs/images/predict8.png" width=300px>
+</center><br>
+
+#### Loss and Accuracy
+<center>
+<img src="Tensorflowjs/images/lossandaccuracy.png" width=400px>
+</center>
+
+
+## Tensorflowjs - Webcam
+
+- We need to train the model in the browser by taking input pictures from the webcam as training data.
+- Then we can use our model to classify for new inputs.
+
 
 
 

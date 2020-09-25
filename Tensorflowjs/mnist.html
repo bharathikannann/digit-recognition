@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+    <style>
+        body{
+            margin-left: 20px;
+        }
+        .primary{
+            background-color: powderblue;
+            border-radius: 10%;
+            margin: 0px;
+            padding: 10px 20px 10px 20px;
+        }
+        h2{
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Handwriting Classifier!</h2>
+    <canvas id="canvas" width="280" height="280" style="position:absolute;top:100;left:100;border:8px solid;"></canvas>
+    <img id="canvasimg" style="position:absolute;top:10%;left:52%;width=280;height=280;display:none;">
+    <button type="button" id="sb" class="primary" style="position:absolute;top:420;left:140;">Classify</button>
+    <button type="button" id="cb" class="primary" style="position:absolute;top:420;left:270;">Clear</button>
+    <script src="data.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

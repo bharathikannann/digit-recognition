@@ -1,0 +1,93 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+<script src="webcam.js"></script>
+<script src="dataset.js"></script>
+    <style>
+    body{
+            margin: 20px;
+            
+        }
+        h2{
+            padding-left: 10px;
+        }
+        .video{
+            padding: 10px;
+            padding-left: 30px;
+        }
+        .button1
+        {
+            border-radius: 4px;
+            background-color: #e7e7e7;
+            color: black;
+            border: 2px white;
+            padding: 10px 15px 10px 15px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.19);
+        }
+        .button1:hover {background-color: white;}
+        .button2
+        {
+            border-radius: 4px;
+            background-color: white;
+            color: black;
+            border: 2px solid #e7e7e7;
+            padding: 10px 15px 10px 15px;
+        }
+        .button2:hover {background-color: #e7e7e7;}
+        .rightpad{
+            align-items: left;
+        }
+        .padleft{
+            padding-left: 30px;
+        }
+        .output{
+            padding-left: 50px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Digit Recognition (Sign Prediction)</h1><hr>
+    <table>
+        <tr>
+        <th>
+        <div>
+            <div style="padding-left: 20px;">
+                <video autoplay playsinline muted id="wc" width="224" height="224"></video>
+            </div>
+        </div>
+        </th>
+        <th style="padding-left: 20px;">
+            <div>
+            <button class="button2" align="left" type="button" id="0" onclick="handleButton(this)" >One</button>
+            <button class="button2" align="left" type="button" id="1" onclick="handleButton(this)" >Two</button>
+            <button class="button2" align="left" type="button" id="2" onclick="handleButton(this)" >Three</button>
+            <button class="button2" align="left" type="button" id="3" onclick="handleButton(this)" >Four</button>
+            <button class="button2" align="left" type="button" id="4" onclick="handleButton(this)" >Five</button>
+            <button class="button2" align="left" type="button" id="5" onclick="handleButton(this)" >Six</button>
+            </div>
+        <br>
+        <div style="font-weight:500" align="left" id="one">One:</div>
+        <div style="font-weight:500" align="left" id="two">Two:</div>
+        <div style="font-weight:500" align="left" id="three">Three:</div>
+        <div style="font-weight:500" align="left" id="four">Four:</div>
+        <div style="font-weight:500" align="left" id="five">Five:</div>
+        <div style="font-weight:500" align="left" id="six">Six:</div>
+        </th>
+        </tr>
+    </table>
+    <br>
+    <div class="padleft">
+	<button class="button1" align="left" type="button" id="train" onclick="doTraining()" >Train Network</button>
+    </div><br>
+	<div class="padleft" id="dummy">Once training is complete, click 'Start Predicting' to see predictions, and 'Stop Predicting' to end. Once you are happy with your model, click 'Download Model' to save the model to your local disk.</div><br>
+    <div class="padleft">
+	<button class="button1" type="button" id="startPredicting" onclick="startPredicting()" >Start Predicting</button>
+	<button class="button1" type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
+    <button class="button1" type="button" id="saveModel" onclick="saveModel()" >Download Model</button>
+    </div><br><hr>
+    <strong><div class="output" id="prediction"></div></strong><hr>
+</body>
+
+<script src="script.js"></script>
+</html>
