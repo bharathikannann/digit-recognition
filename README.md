@@ -45,20 +45,20 @@ This code is not as efficient and takes long time to converge and the same probl
 
 ### Model Architecture
 <center>
-<img src="Tensorflowjs/images/modelarchitecture.png" width=400px><br>
+<img src="Tensorflowjs/Images/modelarchitecture.png" width=400px><br>
 </center>
 
 ### Perdictions
 
 <center>
-<img src="Tensorflowjs/images/predict1.png" width=300px>
-<img src="Tensorflowjs/images/predict2.png" width=300px>
-<img src="Tensorflowjs/images/predict8.png" width=300px>
+<img src="Tensorflowjs/Images/predict1.png" width=300px>
+<img src="Tensorflowjs/Images/predict2.png" width=300px>
+<img src="Tensorflowjs/Images/predict8.png" width=300px>
 </center><br>
 
 #### Loss and Accuracy
 <center>
-<img src="Tensorflowjs/images/lossandaccuracy.png" width=400px>
+<img src="Tensorflowjs/Images/lossandaccuracy.png" width=400px>
 </center>
 
 
@@ -67,7 +67,7 @@ This code is not as efficient and takes long time to converge and the same probl
 - We need to train the model in the browser by taking input pictures from the webcam as training data.
 - Then we can use our model to classify for new inputs.
 
-
+Video demo - [link]() 
 
 
 
