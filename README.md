@@ -67,7 +67,7 @@ This code is not as efficient and takes long time to converge and the same probl
 - We need to train the model in the browser by taking input pictures from the webcam as training data.
 - Then we can use our model to classify for new inputs.
 
-Video demo - [link]() 
+Video demo - [link](https://github.com/bharathikannan1311/digit-recognition/blob/master/Tensorflowjs%20-%20Webcam/Demo/demo.mp4) 
 
 
 
