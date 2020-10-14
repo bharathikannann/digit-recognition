@@ -5,10 +5,10 @@
 
 ## Implementations
 
-1. `Neural Network from Scratch` - for better understanding of how neural network works.
-2. `Tensorflow` - the same problem solved using tensorflow.
-3. `Tensorflowjs` - Classifying digits in the browser.
-4. `Tensorflowjs - Webcam` - Classifying the sign from the webcam in the browser.
+1. [**`Neural Network from Scratch`**](#1-neural-network-from-scratch) - for better understanding of how neural network works.
+2. [**`Tensorflow`**](#2-tensorflow-implementation) - the same problem solved using tensorflow.
+3. [**`Tensorflowjs`**](3-tensorflowjs) - Classifying digits in the browser.
+4. [**`Tensorflowjs - Webcam`**](4-tensorflowjs-webcam) - Classifying the sign from the webcam in the browser.
 
 ## 1. Neural Network from scratch
 
@@ -39,9 +39,9 @@ This code is not as efficient and takes long time to converge and the same probl
 <img src="Tensorflow/Images/accuracy.png" width=300px>
 </center>
 
-## Tensorflowjs
+## 3. Tensorflowjs
 - Implemented using Tensorflowjs library.
-- It trains the model in the browser when launched in the browser and then classifies the digit that we draw in the browser.
+- It trains the model in the browser when launched and then it then classifies the digit that we draw in the browser.
 
 ### Model Architecture
 <center>
@@ -62,9 +62,9 @@ This code is not as efficient and takes long time to converge and the same probl
 </center>
 
 
-## Tensorflowjs - Webcam
+## 4. Tensorflowjs - Webcam
 
-- We need to train the model in the browser by taking input pictures from the webcam as training data.
+- We need to train the model in the browser by taking sign pictures as input from the webcam as training data.
 - Then we can use our model to classify for new inputs.
 
 Video demo - [link](https://github.com/bharathikannan1311/digit-recognition/blob/master/Tensorflowjs%20-%20Webcam/Demo/demo.mp4) 
