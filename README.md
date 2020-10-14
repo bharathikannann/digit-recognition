@@ -7,8 +7,8 @@
 
 1. [**`Neural Network from Scratch`**](#1-neural-network-from-scratch) - for better understanding of how neural network works.
 2. [**`Tensorflow`**](#2-tensorflow-implementation) - the same problem solved using tensorflow.
-3. [**`Tensorflowjs`**](3-tensorflowjs) - Classifying digits in the browser.
-4. [**`Tensorflowjs - Webcam`**](4-tensorflowjs-webcam) - Classifying the sign from the webcam in the browser.
+3. [**`Tensorflowjs`**](#3-tensorflowjs) - Classifying digits in the browser.
+4. [**`Tensorflowjs - Webcam`**](#4-tensorflowjs-webcam) - Classifying the sign from the webcam in the browser.
 
 ## 1. Neural Network from scratch
 
