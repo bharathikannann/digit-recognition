@@ -10,7 +10,7 @@
 3. [**`Tensorflowjs`**](#3-tensorflowjs) - Classifying digits in the browser.
 4. [**`Tensorflowjs - Webcam`**](#4-tensorflowjs---webcam) - Classifying the sign from the webcam in the browser.
 
-## 1. Neural Network from scratch
+## 1. [Neural Network from scratch](/Neural%20Network%20from%20scratch)
 
 - A simple implementation of `Neural Network from scratch` in python. It does not use any Deeplearning library like tensorflow and all of the functions are implemented from scratch only using numpy `for better understanding of concepts and how Neural Networks work`.
 
@@ -27,7 +27,7 @@
 
 This code is not as efficient and takes long time to converge and the same problem solved through tensorflow will be much efficient and we can use better optimization techniques and Convolutional Neural Networks are suitable for Image Datasets.
 
-## 2. Tensorflow Implementation.
+## 2. [Tensorflow Implementation](/Tensorflow) 
 - The same problem implemented in tensorflow with Convolutional Neural Networks and adam optimizer.
 
 - `Prerequisites`
@@ -39,7 +39,7 @@ This code is not as efficient and takes long time to converge and the same probl
 <img src="Tensorflow/Images/accuracy.png" width=300px>
 </center>
 
-## 3. Tensorflowjs
+## 3. [Tensorflowjs](/Tensorflowjs)
 - Implemented using Tensorflowjs library.
 - It trains the model in the browser when launched and then it then classifies the digit that we draw in the browser.
 
@@ -62,7 +62,7 @@ This code is not as efficient and takes long time to converge and the same probl
 </center>
 
 
-## 4. Tensorflowjs - Webcam
+## 4. [Tensorflowjs - Webcam](/Tensorflowjs%20-%20Webcam) 
 
 - We need to train the model in the browser by taking sign pictures as input from the webcam as training data.
 - Then we can use our model to classify for new inputs.
